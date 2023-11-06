@@ -1,0 +1,26 @@
+.gpt__blog{
+    display: flex;
+    flex-direction: column;
+}
+.gpt__blog-heading{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+.gpt__blog-heading h1{
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+
+}
+.gpt__blog-container{
+    display: flex;
+    flex-direction: row;
+
+}
+.gpt__blog-container_groupa{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-right: 2rem;
+    grid-column-gap: 2rem;
+}

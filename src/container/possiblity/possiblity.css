@@ -1,0 +1,67 @@
+.gpt__possibility{
+    display: flex;
+    flex-direction: row;
+}
+.gpt__possibility-image{
+    flex:1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 2rem;
+    margin-left: 5rem;
+}
+.gpt__possibility-image img{
+    width: 546px;
+    height: 607.53px;
+
+}
+.gpt__possibility-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 15rem;
+}
+.gpt__possibility-content h4{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color:#71e5ff;
+}
+.gpt__possibility-content h4:last-child{
+    color:#ff8a71;
+
+}
+.gpt__possibility-content h1{
+    margin-top: 2rem;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 45px;
+    margin-bottom: 2rem;
+}
+.gpt__possibility-content p{
+    color:#81afdd;
+    font-size: 16px;
+    line-height: 30px;
+}
+@media screen and(max-width:950px) {
+    .gpt__possibility{
+        flex-direction: column;
+    }
+    .gpt__possibility-image{
+        margin: 1rem 0rem;
+    }
+    
+}
+@media screen and(max-width:550px) {
+    .gpt__possibility{
+        flex-direction: column;
+    }
+    .gpt__possibility-content{
+        flex-direction: column;
+    }
+    
+}
+
+

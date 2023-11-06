@@ -1,0 +1,47 @@
+.gpt__footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-footer);
+}
+.gpt__footer-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+.gpt__footer-heading h1{
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+}
+.gpt__footer-btn p{
+    border: 1px solid white;
+    box-sizing: border-box;
+    font-family:Manrope;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    padding: 1.5rem 1.5rem ;
+    margin: 2rem;
+}
+.gpt__footer-links{
+    margin-top:4rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+
+}
+.gpt__footer-links div{
+    color: white;
+    margin: 1rem;   
+}
+
